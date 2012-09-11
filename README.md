@@ -11,11 +11,11 @@ codeigniter kütüphaneler
 
 Usage :
 > youtube :
-$embed = $this->media->youtubeVideo($vidid,'embed');
-$thumb = $this->media->youtubeVideo($vidid,'hqthumb');
+1. $embed = $this->media->youtubeVideo($vidid,'embed');
+   $thumb = $this->media->youtubeVideo($vidid,'hqthumb');
 > vimeo : 
-$embed = $this->media->vimeoVideo($vidid);
-$thumb = $this->media->vimeoVideo($vidid,'thumb');
+2. $embed = $this->media->vimeoVideo($vidid); 
+   $thumb = $this->media->vimeoVideo($vidid,'thumb');
 > dailymotion : 
-$embed = $this->media->dailyVideo($vidid);
-$thumb = $this->media->dailyVideo($vidid,'thumb');
+3. $embed = $this->media->dailyVideo($vidid);
+   $thumb = $this->media->dailyVideo($vidid,'thumb');
