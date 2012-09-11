@@ -3,8 +3,19 @@ ci-library
 
 codeigniter kütüphaneler
 
-media library
-==========
-youtube video link parser
-vimeo video link parser
-dailymotion video link parser
+### Media Library
+1.  youtube video link parser
+2.  vimeo video link parser
+3.  dailymotion video link parser
+
+
+Usage :
+> youtube :
+$embed = $this->media->youtubeVideo($vidid,'embed');
+$thumb = $this->media->youtubeVideo($vidid,'hqthumb');
+> vimeo : 
+$embed = $this->media->vimeoVideo($vidid);
+$thumb = $this->media->vimeoVideo($vidid,'thumb');
+> dailymotion : 
+$embed = $this->media->dailyVideo($vidid);
+$thumb = $this->media->dailyVideo($vidid,'thumb');
