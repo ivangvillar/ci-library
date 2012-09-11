@@ -1,7 +1,7 @@
 ci-library
 ==========
 
-codeigniter kütüphaneler
+codeigniter my library
 
 ### Media Library
 1.  youtube video link parser
