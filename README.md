@@ -10,9 +10,10 @@ codeigniter kütüphaneler
 
 
 Usage :
-> youtube :
->1. $embed = $this->media->youtubeVideo($vidid,'embed');
->2. $thumb = $this->media->youtubeVideo($vidid,'hqthumb');
+1. youtube :
+> $embed = $this->media->youtubeVideo($vidid,'embed');
+
+> $thumb = $this->media->youtubeVideo($vidid,'hqthumb');
 
 > vimeo : 
 2. $embed = $this->media->vimeoVideo($vidid); 
