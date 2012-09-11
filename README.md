@@ -17,5 +17,5 @@ Usage :
 2. $embed = $this->media->vimeoVideo($vidid); 
    $thumb = $this->media->vimeoVideo($vidid,'thumb');
 > dailymotion : 
-3. $embed = $this->media->dailyVideo($vidid);
-   $thumb = $this->media->dailyVideo($vidid,'thumb');
++$embed = $this->media->dailyVideo($vidid);
++$thumb = $this->media->dailyVideo($vidid,'thumb');
